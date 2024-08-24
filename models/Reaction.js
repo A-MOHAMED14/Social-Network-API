@@ -19,7 +19,15 @@ const reactionSchema = new Schema(
       type: Date,
       default: Date.now,
       get: (createdAt) => {
-        return createdAt.toLocaleDateString();
+        const day = createdAt.getDate();
+        const month = createdAt.getMonth();
+        const year = createdAt.getFullYear();
+        const hour = createdAt.getHours();
+        const minute = createdAt.getMinutes();
+
+        const dateCreated = `${day}-${month}-${year} at ${hour}:${minute}`;
+
+        return dateCreated;
       },
     },
   },
