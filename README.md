@@ -1,5 +1,7 @@
 # Social Network API
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description
 
 This is an API for a social network web application, designed to handle large volumes of unstructured data efficiently using MongoDB. The API allows users to create and manage their profiles, share their thoughts, react to friends thoughts, and build a friend list. It leverages Express.js for routing and the Mongoose ODM for interacting with the MongoDB database.
@@ -73,3 +75,7 @@ git push origin feature/your-feature-name
 ```
 
 5. Open a pull request to the main repository, describing your changes in detail.
+
+## 📄 License
+
+This project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and permission notice are included in all copies or substantial portions of the software. For more details, see the MIT [LICENSE](https://opensource.org/licenses/MIT) file.
