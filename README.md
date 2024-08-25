@@ -31,3 +31,20 @@ mongod
 
 npm run seed
 ```
+
+## 🏗️ Usage
+
+To start the application, run the following command:
+
+```sh
+npm run dev
+```
+
+## ⚒️ Technologies Used
+
+- **Express.js**: For routing and handling server requests.
+- **MongoDB**: As the NoSQL database for storing data.
+- **Mongoose**: An ODM (Object Document Mapper) for MongoDB, used to model, manage, and interact with data in the database.
+- **Node.js**: The runtime environment for executing JavaScript code on the server.
+- **JavaScript**: The programming language used to build the application logic.
+- **Postman**: For testing API routes and ensuring functionality.
